@@ -33,12 +33,11 @@ Pour tester si les données sont stationnaires, j'ai utilisé le test de Dickey-
   <img src='screenshots/trends.PNG' width='50%'/>
   <img src='screenshots/corr.PNG' width='50%'/>
   
-## [Results](./arima_and_nlp.ipynb)
+## [Resultat](./arima_and_nlp.ipynb)
 Ensuite, j'ai créé des tracés ACF et PACF pour déterminer les paramètres d'entrée p et q pour notre modèle ARIMA. D'après les tracés, 1 et 2 semblent être de bonnes valeurs pour p et q respectivement, mais je vais quand même exécuter un modèle autoarima pour être sûr d'utiliser les paramètres les plus optimaux. J'ai ensuite ajusté le modèle dans la moitié des données en utilisant 0 comme paramètres p et q obtenus à partir de l'exécution du modèle autoarima avec 1 comme ordre de différenciation. Après avoir validé le modèle avec les résultats des tests, mon erreur quadratique moyenne est de 2,5 rmse, ce qui n'est pas trop mal. 
     
   <img src='screenshots/autoarima.PNG' width='50%'/>
     <img src='screenshots/error.PNG' width='50%'/>
-  <img src='screenshots/twitter.PNG' width='50%'/>
 
 
 ### Recommendation
