@@ -1,0 +1,14 @@
+[
+    {
+        "sizes": 96,
+        "labels": "Positive"
+    },
+    {
+        "sizes": 21,
+        "labels": "Negative"
+    },
+    {
+        "sizes": 183,
+        "labels": "Neutral"
+    }
+]
