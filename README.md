@@ -13,10 +13,9 @@
 * [Travaux futurs](#travaux-futurs)
   
  ## Preview
-  <img src='screenshots/home.PNG' width='50%'/>
-  <img src='screenshots/results.PNG' width='50%'/>
-  <img src='screenshots/results2.PNG' width='50%'/>
-  <img src='screenshots/results3.PNG' width='50%'/>
+  <img src='screenshots/trad1.PNG' width='50%'/>
+  <img src='screenshots/trad2.PNG' width='50%'/>
+  <img src='screenshots/trad3.PNG' width='50%'/>
   
 ## Objectif
 L'objectif de notre application est de construire un modèle capable de prédire efficacement le prix de clôture ajusté d'une entreprise pour les 7 prochains jours.
