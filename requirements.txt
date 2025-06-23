@@ -5,7 +5,8 @@ streamlit==0.52.1
 seaborn
 tweepy
 textblob
-flask
+Flask==2.2.0
+requests==2.26.0
 pandas
 matplotlib
 scikit_learn

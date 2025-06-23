@@ -530,8 +530,6 @@ def insertintotable():
                                low_s=today_stock['low'].to_string(index=False),vol=today_stock['volume'].to_string(index=False),
                                forecast_set_ar=forecast_set_ar,dates=dates,error_arima=round(error_arima,2) )
 
-
-
 if __name__ == '__main__':
    app.run(debug=True)
    
